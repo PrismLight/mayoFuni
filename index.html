@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mayo Be Like...</title>
+    <style>
+    #lol {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    </style>
+  </head>
+  <body>
+
+    <h1 style="text-align:center;">MAYO BE LIKE!</h1>
+
+    <img id="lol" src="https://avatars.githubusercontent.com/u/75394229?s=120&v=4">
+
+    <script>
+      let a = 0;
+      const b = document.getElementById("lol");
+
+      window.setInterval(function() {
+	      a += 5;
+	      b.style.transform = "rotateY(" + a + "deg)";
+      }, 10);
+    </script>
+  </body>
+</html>
